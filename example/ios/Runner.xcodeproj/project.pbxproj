@@ -23,6 +23,11 @@
 		134ADFDA2432EECA00D3513A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 134ADFD92432EECA00D3513A /* libz.tbd */; };
 		134ADFDC2432EEDB00D3513A /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 134ADFDB2432EEDB00D3513A /* libsqlite3.tbd */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
+		2CAD6EF725E8C7B90020020A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6EF625E8C7B90020020A /* StoreKit.framework */; };
+		2CAD6EF925E8C8480020020A /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6EF825E8C8480020020A /* libbz2.tbd */; };
+		2CAD6EFB25E8C8540020020A /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6EFA25E8C8540020020A /* libxml2.tbd */; };
+		2CAD6EFD25E8C85E0020020A /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6EFC25E8C85E0020020A /* libiconv.tbd */; };
+		2CAD6EFF25E8C8680020020A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CAD6EFE25E8C8680020020A /* Security.framework */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFFD8EE1D35381100E5BB4D /* AppDelegate.m */; };
 		97C146F31CF9000F007C117D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97C146F21CF9000F007C117D /* main.m */; };
@@ -68,6 +73,11 @@
 		13A93E8D5B0DD09F60AC3BF9 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Runner.release.xcconfig"; path = "Target Support Files/Pods-Runner/Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		2CAD6EF625E8C7B90020020A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2CAD6EF825E8C8480020020A /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		2CAD6EFA25E8C8540020020A /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		2CAD6EFC25E8C85E0020020A /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		2CAD6EFE25E8C8680020020A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
 		7AFFD8ED1D35381100E5BB4D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,21 +100,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				134ADFDC2432EEDB00D3513A /* libsqlite3.tbd in Frameworks */,
+				2CAD6EFF25E8C8680020020A /* Security.framework in Frameworks */,
+				2CAD6EFD25E8C85E0020020A /* libiconv.tbd in Frameworks */,
+				2CAD6EFB25E8C8540020020A /* libxml2.tbd in Frameworks */,
+				2CAD6EF925E8C8480020020A /* libbz2.tbd in Frameworks */,
 				134ADFDA2432EECA00D3513A /* libz.tbd in Frameworks */,
 				134ADFD82432EEBD00D3513A /* libc++.tbd in Frameworks */,
 				134ADFD62432EEAA00D3513A /* libresolv.9.tbd in Frameworks */,
+				134ADFCC2432EE7D00D3513A /* CoreTelephony.framework in Frameworks */,
+				134ADFC62432EE2B00D3513A /* CoreMedia.framework in Frameworks */,
+				134ADFC02432EE0D00D3513A /* MobileCoreServices.framework in Frameworks */,
+				2CAD6EF725E8C7B90020020A /* StoreKit.framework in Frameworks */,
+				134ADFDC2432EEDB00D3513A /* libsqlite3.tbd in Frameworks */,
 				134ADFD42432EEA100D3513A /* Accelerate.framework in Frameworks */,
 				134ADFD22432EE9900D3513A /* CoreMotion.framework in Frameworks */,
 				134ADFD02432EE9000D3513A /* AdSupport.framework in Frameworks */,
 				134ADFCE2432EE8600D3513A /* SystemConfiguration.framework in Frameworks */,
-				134ADFCC2432EE7D00D3513A /* CoreTelephony.framework in Frameworks */,
 				134ADFCA2432EE7300D3513A /* AVFoundation.framework in Frameworks */,
 				134ADFC82432EE3600D3513A /* CoreLocation.framework in Frameworks */,
-				134ADFC62432EE2B00D3513A /* CoreMedia.framework in Frameworks */,
 				134ADFC42432EE2000D3513A /* MediaPlayer.framework in Frameworks */,
 				134ADFC22432EE1700D3513A /* WebKit.framework in Frameworks */,
-				134ADFC02432EE0D00D3513A /* MobileCoreServices.framework in Frameworks */,
 				E044B2923D2D070FFB3A02C9 /* libPods-Runner.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -179,6 +194,11 @@
 		FD9FA9DC9361A10C908F95E6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2CAD6EFE25E8C8680020020A /* Security.framework */,
+				2CAD6EFC25E8C85E0020020A /* libiconv.tbd */,
+				2CAD6EFA25E8C8540020020A /* libxml2.tbd */,
+				2CAD6EF825E8C8480020020A /* libbz2.tbd */,
+				2CAD6EF625E8C7B90020020A /* StoreKit.framework */,
 				134ADFDB2432EEDB00D3513A /* libsqlite3.tbd */,
 				134ADFD92432EECA00D3513A /* libz.tbd */,
 				134ADFD72432EEBD00D3513A /* libc++.tbd */,
@@ -236,7 +256,7 @@
 				TargetAttributes = {
 					97C146ED1CF9000F007C117D = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = G46XP9877A;
+						DevelopmentTeam = 4CP79ZN3BS;
 					};
 				};
 			};
@@ -296,10 +316,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Runner/Pods-Runner-resources.sh",
-				"${PODS_ROOT}/Bytedance-UnionAD/Bytedance-UnionAd/Frameworks/BUAdSDK.bundle",
+				"${PODS_ROOT}/Ads-CN/PangleSDK/LICENSE",
+				"${PODS_ROOT}/Ads-CN/PangleSDK/BUAdSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LICENSE",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BUAdSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,7 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = G46XP9877A;
+				DEVELOPMENT_TEAM = 84CY8753GX;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -469,6 +491,16 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+					"-l\"c++\"",
+					"-ObjC",
+					"-l\"z\"",
+					"-l\"sqlite3\"",
+					"-l\"c++abi\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tongyangsheng.pangolinExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -589,7 +621,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = G46XP9877A;
+				DEVELOPMENT_TEAM = 4CP79ZN3BS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -601,6 +633,16 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+					"-l\"c++\"",
+					"-ObjC",
+					"-l\"z\"",
+					"-l\"sqlite3\"",
+					"-l\"c++abi\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tongyangsheng.pangolinTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -616,7 +658,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = G46XP9877A;
+				DEVELOPMENT_TEAM = 4CP79ZN3BS;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -628,6 +670,16 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Flutter",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Flutter,
+					"-l\"c++\"",
+					"-ObjC",
+					"-l\"z\"",
+					"-l\"sqlite3\"",
+					"-l\"c++abi\"",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.tongyangsheng.pangolinTT;
 				PRODUCT_NAME = "$(TARGET_NAME)";

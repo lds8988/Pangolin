@@ -1,10 +1,16 @@
 PODS:
-  - Bytedance-UnionAD (2.9.5.6)
+  - Ads-CN (3.4.2.8):
+    - Ads-CN/BUAdSDK (= 3.4.2.8)
+  - Ads-CN/BUAdSDK (3.4.2.8):
+    - Ads-CN/BUFoundation
+    - Ads-CN/Domestic
+  - Ads-CN/BUFoundation (3.4.2.8)
+  - Ads-CN/Domestic (3.4.2.8)
   - Flutter (1.0.0)
   - pangolin (0.0.1):
-    - Bytedance-UnionAD
+    - Ads-CN
     - Flutter
-  - "permission_handler (5.0.1+1)":
+  - "permission_handler (5.1.0+2)":
     - Flutter
 
 DEPENDENCIES:
@@ -14,7 +20,7 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
-    - Bytedance-UnionAD
+    - Ads-CN
 
 EXTERNAL SOURCES:
   Flutter:
@@ -25,11 +31,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/permission_handler/ios"
 
 SPEC CHECKSUMS:
-  Bytedance-UnionAD: c416fab8b06ccb24e4f73baa453cda2548ca8320
+  Ads-CN: 45ac8b4ff07d3be5b4bd6aa734e711e9dc9c3efa
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  pangolin: 7bef05eb068f0f73057c994a98c5b81fd772a0dd
-  permission_handler: eac8e15b4a1a3fba55b761d19f3f4e6b005d15b6
+  pangolin: 7fef1dfc1b05d573c5bd6a394a6ebe2b8b568fcf
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
 
 PODFILE CHECKSUM: 8e679eca47255a8ca8067c4c67aab20e64cb974d
 
-COCOAPODS: 1.9.2
+COCOAPODS: 1.9.3

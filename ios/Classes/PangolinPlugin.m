@@ -6,7 +6,7 @@ BUNativeAdsManagerDelegate,BUVideoAdViewDelegate,BUNativeAdDelegate,
 BUNativeExpressAdViewDelegate,
 BUNativeExpressFullscreenVideoAdDelegate,
 BUNativeExpresInterstitialAdDelegate,
-BUBannerAdViewDelegate>
+BUVideoAdViewDelegate>
 @property (nonatomic, strong) UITextField *playableUrlTextView;
 @property (nonatomic, strong) UITextField *downloadUrlTextView;
 @property (nonatomic, strong) UITextField *deeplinkUrlTextView;
