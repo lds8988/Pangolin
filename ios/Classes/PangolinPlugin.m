@@ -75,7 +75,7 @@ FlutterMethodChannel* globalMethodChannel;
         model.rewardName = rewardName;
         model.extra=mediaExtra;
         
-        self.rewardedAd = [[BUNativeExpressRewardedVideoAd alloc] initWithSlotID:slotId rewardedVideoModel:model];
+        self.rewardedAd = [[BUNativeExpressRewardedVideoAd alloc] initWithSlotID:slotID rewardedVideoModel:model];
         self.rewardedAd.delegate = self;
         [self.rewardedAd loadAdData];
         result(@YES);
@@ -165,7 +165,11 @@ FlutterMethodChannel* globalMethodChannel;
 
 //激励视频渲染完成并展示
 - (void)nativeExpressRewardedVideoAdViewRenderSuccess:(BUNativeExpressRewardedVideoAd *)rewardedVideoAd {
-    [self.rewardedAd showAdFromRootViewController: [self rootViewController]];
+    // [self.rewardedAd showAdFromRootViewController: [self rootViewController]];
+
+    if (self.rewardedAd) {
+            [self.rewardedAd showAdFromRootViewController:self];
+        }
 }
 
 //激励视频播放完成
